@@ -24,7 +24,7 @@
       'nav.download': 'ڈاؤن لوڈ',
       'nav.requirements': 'سسٹم کی ضروریات',
 
-      'hero.badge': 'ونڈوز 10/11 • ورژن 1.0.0 • مفت',
+      'hero.badge': 'ونڈوز 10/11 • ورژن 0.0.1 • مفت',
       'hero.title': 'اپنی گاڑی کے فیصلے، اب زیادہ سمارٹ',
       'hero.sub': 'AG RoadSense ایک مکمل آف لائن ڈیسک ٹاپ ایپلیکیشن ہے جو ٹائر سائز کا موازنہ، الیکٹرک رینج، چارجنگ ٹائم، ایفی شنسی، بریکنگ فاصلہ اور مینٹیننس ریکارڈ — سب ایک ہی جگہ سنبھالتی ہے۔',
       'hero.download': 'ونڈوز کے لیے ڈاؤن لوڈ کریں',
@@ -89,7 +89,7 @@
       'nav.download': 'Download',
       'nav.requirements': 'Requirements',
 
-      'hero.badge': 'Windows 10/11 • Version 1.0.0 • Free',
+      'hero.badge': 'Windows 10/11 • Version 0.0.1 • Free',
       'hero.title': 'Smarter decisions for your vehicle',
       'hero.sub': 'AG RoadSense is a fully offline desktop app that handles tyre size comparison, EV range, charging time, efficiency, braking distance and maintenance records — all in one place.',
       'hero.download': 'Download for Windows',

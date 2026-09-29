@@ -11,8 +11,7 @@
 
   /* ---------- CONFIG ---------- */
   const CONFIG = {
-    // ⬇️ Apna actual installer link yahan lagao:
-    downloadUrl: 'https://github.com/your-user/AG-RoadSense/releases/latest/download/AG-RoadSense-Setup.exe',
+    downloadUrl: 'https://github.com/AG-Pixel-creater/AG-Road-Sense-Website/releases/download/v0.0.1/AG_Road_SenseSetup.exe',
     defaultLang: 'ur',      // 'ur' | 'en'
     defaultTheme: 'dark'    // 'dark' | 'light'
   };

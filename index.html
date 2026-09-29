@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a0f" />
+
+  <title>AG RoadSense — ڈاؤن لوڈ</title>
+  <meta name="description" content="AG RoadSense — گاڑیوں کے حسابات اور مینٹیننس ٹریکنگ کے لیے آف لائن ڈیسک ٹاپ ایپلیکیشن۔ ونڈوز کے لیے مفت ڈاؤن لوڈ کریں۔" />
+
+  <!-- Favicon / App icon -->
+  <link rel="icon" href="assets/icon.ico" />
+  <link rel="shortcut icon" href="assets/icon.ico" />
+  <link rel="apple-touch-icon" href="assets/icon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <img class="brand-icon" src="assets/icon.ico" alt="AG RoadSense" width="40" height="40" />
+        <span class="brand-text">
+          <strong>AG RoadSense</strong>
+          <small data-i18n="brand.tag">آف لائن ڈیسک ٹاپ ایپ</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features" data-i18n="nav.features">خصوصیات</a>
+        <a href="#download" data-i18n="nav.download">ڈاؤن لوڈ</a>
+        <a href="#requirements" data-i18n="nav.requirements">سسٹم کی ضروریات</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="langToggle" class="chip" type="button" aria-label="Switch language">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M3 12h18M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18z" />
+          </svg>
+          <span id="langLabel">English</span>
+        </button>
+
+        <button id="themeToggle" class="chip icon-chip" type="button" aria-label="Toggle theme">
+          <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
+          </svg>
+          <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" />
+            <path d="M12 2v2.2M12 19.8V22M2 12h2.2M19.8 12H22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M19.1 4.9l-1.6 1.6M6.5 17.5l-1.6 1.6" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="pill">
+          <span class="dot"></span>
+          <span data-i18n="hero.badge">ونڈوز 10/11 • ورژن 1.0.0 • مفت</span>
+        </span>
+
+        <h1 class="hero-title" data-i18n="hero.title">
+          اپنی گاڑی کے فیصلے، اب زیادہ سمارٹ
+        </h1>
+
+        <p class="hero-sub" data-i18n="hero.sub">
+          AG RoadSense ایک مکمل آف لائن ڈیسک ٹاپ ایپلیکیشن ہے جو ٹائر سائز کا موازنہ، الیکٹرک رینج،
+          چارجنگ ٹائم، ایفی شنسی، بریکنگ فاصلہ اور مینٹیننس ریکارڈ — سب ایک ہی جگہ سنبھالتی ہے۔
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" data-dl-link href="#" download>
+            <svg class="win-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M3 5.6 10.4 4.5v7H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.6h7.4v7L3 18.5zM11.5 12.6H21V21l-9.5-1.3z"/>
+            </svg>
+            <span data-i18n="hero.download">ونڈوز کے لیے ڈاؤن لوڈ کریں</span>
+          </a>
+
+          <a class="btn btn-ghost" href="#features" data-i18n="hero.secondary">خصوصیات دیکھیں</a>
+        </div>
+
+        <ul class="hero-meta">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+            <span data-i18n="hero.meta1">100% آف لائن</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+            <span data-i18n="hero.meta2">کوئی اکاؤنٹ یا سائن اپ نہیں</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+            <span data-i18n="hero.meta3">ڈیٹا صرف آپ کے کمپیوٹر پر</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section id="features" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="features.title">ایک ایپ، تمام ضروری حسابات</h2>
+          <p data-i18n="features.sub">
+            گاڑی کے روزمرہ کے حسابات اور ریکارڈ کی دیکھ بھال — ایک سادہ، تیز اور مکمل آف لائن انٹرفیس میں۔
+          </p>
+        </header>
+
+        <div class="grid grid-3">
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="12" r="4.5"/><circle cx="17" cy="12" r="4.5"/></svg>
+            </div>
+            <h3 data-i18n="f1.title">ٹائر سائز کا موازنہ</h3>
+            <p data-i18n="f1.desc">دو ٹائر سائز کا ساتھ ساتھ موازنہ، فرق کو واضح کرنے والے بصری خاکے کے ساتھ۔</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="16" height="10" rx="2.6"/><path d="M21 10.5v3"/><path d="M10.6 9.4 7.4 13.4h3l-1 2.6 3.6-4.2h-3z"/></svg>
+            </div>
+            <h3 data-i18n="f2.title">الیکٹرک رینج کا تخمینہ</h3>
+            <p data-i18n="f2.desc">بیٹری کی صلاحیت، کھپت اور ڈرائیونگ حالات کی بنیاد پر ممکنہ رینج کا اندازہ لگائیں۔</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2.5v5.5M15 2.5v5.5"/><path d="M6 8h12v3.2a6 6 0 0 1-6 6 6 6 0 0 1-6-6z"/><path d="M12 17.2V21.5"/></svg>
+            </div>
+            <h3 data-i18n="f3.title">چارجنگ ٹائم کا حساب</h3>
+            <p data-i18n="f3.desc">چارجر کی پاور اور بیٹری لیول کے مطابق تخمینی چارجنگ وقت معلوم کریں۔</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 18a8.5 8.5 0 1 1 17 0"/><path d="M12 18l4.2-6.4"/><circle cx="12" cy="18" r="1.6"/></svg>
+            </div>
+            <h3 data-i18n="f4.title">ایفی شنسی کیلکولیشن</h3>
+            <p data-i18n="f4.desc">ایندھن یا بجلی کی کھپت اور فی کلومیٹر لاگت کا درست حساب لگائیں۔</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2a1 1 0 0 0 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+            <h3 data-i18n="f5.title">بریکنگ و اسٹاپنگ فاصلہ</h3>
+            <p data-i18n="f5.desc">رفتار، ردِعمل کے وقت اور سڑک کی حالت کے مطابق توقف کے فاصلے کا بصری خاکہ۔</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2.5" width="8" height="4" rx="1.2"/><path d="M16 4.5h2a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2h2"/><path d="m9.2 14 2 2 3.8-4"/></svg>
+            </div>
+            <h3 data-i18n="f6.title">مینٹیننس ٹریکنگ</h3>
+            <p data-i18n="f6.desc">مینٹیننس کے اندراجات محفوظ کریں اور CSV یا JSON میں ایکسپورٹ کریں۔</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DOWNLOAD ================= -->
+    <section id="download" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="dl.title">ڈاؤن لوڈ کریں</h2>
+          <p data-i18n="dl.sub">تازہ ترین ورژن ڈاؤن لوڈ کریں اور فوراً استعمال شروع کریں۔</p>
+        </header>
+
+        <div class="grid grid-3 download-grid">
+
+          <!-- Windows (active) -->
+          <article class="dl-card featured reveal">
+            <div class="dl-top">
+              <svg class="dl-ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M3 5.6 10.4 4.5v7H3zM11.5 4.3 21 3v8.5h-9.5zM3 12.6h7.4v7L3 18.5zM11.5 12.6H21V21l-9.5-1.3z"/>
+              </svg>
+              <div>
+                <h3 data-i18n="dl.win.title">ونڈوز</h3>
+                <p class="dl-desc" data-i18n="dl.win.desc">ونڈوز 10 اور 11 (64-bit) کے لیے انسٹالر</p>
+              </div>
+            </div>
+
+            <ul class="dl-specs">
+              <li><span data-i18n="dl.spec.version">ورژن</span><b>1.0.0</b></li>
+              <li><span data-i18n="dl.spec.size">سائز</span><b>~45 MB</b></li>
+              <li><span data-i18n="dl.spec.type">فائل</span><b>.exe</b></li>
+            </ul>
+
+            <a class="btn btn-primary btn-block" data-dl-link href="#" download>
+              <svg class="win-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M4 19h16"/>
+              </svg>
+              <span data-i18n="dl.win.button">ڈاؤن لوڈ کریں (.exe)</span>
+            </a>
+
+            <p class="dl-note" data-i18n="dl.win.note">
+              نوٹ: انسٹالر پر اینٹی وائرس کی وارننگ آ سکتی ہے — یہ نئے انسٹالرز کے ساتھ عام بات ہے۔
+            </p>
+          </article>
+
+          <!-- macOS (soon) -->
+          <article class="dl-card soon reveal">
+            <div class="dl-top">
+              <svg class="dl-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16.4 12.6c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.8-3.5.8s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 3 2.4 1.2 0 1.6-.8 3.1-.8s1.9.8 3.1.8 2.1-1.1 2.9-2.3c.9-1.3 1.3-2.6 1.3-2.7-.1 0-2.9-1.1-2.9-3.7z"/>
+                <path d="M14.3 5.6c.6-.8 1.1-1.9 1-3-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.9 1.1.1 2.2-.6 2.9-1.4z"/>
+              </svg>
+              <div>
+                <h3 data-i18n="dl.mac.title">macOS</h3>
+                <p class="dl-desc" data-i18n="dl.mac.desc">ایپل سلکان اور انٹیل میک کے لیے</p>
+              </div>
+            </div>
+            <div class="soon-badge" data-i18n="dl.soon">جلد آ رہا ہے</div>
+          </article>
+
+          <!-- Linux (soon) -->
+          <article class="dl-card soon reveal">
+            <div class="dl-top">
+              <svg class="dl-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2c-2 0-3 1.7-3 3.8 0 1.6-.3 2.4-1.2 3.8C6.6 11.4 6 13 6 15c0 1 .3 2 1 2.6-.3 1 .3 2 1.7 2.4 1.1.3 2.2 0 3.3 0s2.2.3 3.3 0c1.4-.4 2-1.4 1.7-2.4.7-.6 1-1.6 1-2.6 0-2-.6-3.6-1.8-5.4-.9-1.4-1.2-2.2-1.2-3.8C15 3.7 14 2 12 2z"/>
+                <circle cx="10.5" cy="6.5" r=".6" fill="currentColor"/>
+                <circle cx="13.5" cy="6.5" r=".6" fill="currentColor"/>
+                <path d="M10.6 9.2c.9.6 1.9.6 2.8 0"/>
+              </svg>
+              <div>
+                <h3 data-i18n="dl.linux.title">لینکس</h3>
+                <p class="dl-desc" data-i18n="dl.linux.desc">AppImage اور .deb پیکجز</p>
+              </div>
+            </div>
+            <div class="soon-badge" data-i18n="dl.soon">جلد آ رہا ہے</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= REQUIREMENTS ================= -->
+    <section id="requirements" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <h2 data-i18n="req.title">سسٹم کی ضروریات</h2>
+          <p data-i18n="req.sub">چلانے کے لیے بس اتنا ہی درکار ہے — کوئی اضافی سیٹ اپ نہیں۔</p>
+        </header>
+
+        <div class="req-table reveal">
+          <div class="req-row">
+            <span class="req-key" data-i18n="req.os">آپریٹنگ سسٹم</span>
+            <span class="req-val" data-i18n="req.osv">ونڈوز 10 یا 11 (64-bit)</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key" data-i18n="req.ram">ریم</span>
+            <span class="req-val" data-i18n="req.ramv">4 GB یا اس سے زیادہ</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key" data-i18n="req.disk">ڈسک اسپیس</span>
+            <span class="req-val" data-i18n="req.diskv">200 MB خالی جگہ</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key" data-i18n="req.net">انٹرنیٹ</span>
+            <span class="req-val" data-i18n="req.netv">ضروری نہیں — ایپ مکمل آف لائن چلتی ہے</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key" data-i18n="req.other">دیگر</span>
+            <span class="req-val" data-i18n="req.otherv">Python انسٹال کرنے کی ضرورت نہیں — سب کچھ شامل ہے</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.ico" alt="" width="28" height="28" />
+        <strong>AG RoadSense</strong>
+      </div>
+
+      <p class="footer-note">
+        <span data-i18n="footer.offline">آف لائن</span> ·
+        <span data-i18n="footer.private">نجی</span> ·
+        <span data-i18n="footer.fast">تیز</span>
+      </p>
+
+      <p class="footer-copy">
+        © <span id="year">2025</span> AG RoadSense —
+        <span data-i18n="footer.rights">جملہ حقوق محفوظ ہیں۔</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
